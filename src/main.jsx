@@ -11,19 +11,19 @@ import { ServicesSection } from './components/ServicesSection/ServicesSection.js
 import Hosting from './components/Hosting/Hosting.jsx'
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/demo_focalx",
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "/demo_focalx",
         element: <LandingPage />,
         children: [
           {
-            path: "/services",
+            path: "/demo_focalx/services",
             element: <ServicesSection />
           },
           {
-            path: "/hosting",
+            path: "/demo_focalx/hosting",
             element: <Hosting />
 
           }
