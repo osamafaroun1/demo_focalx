@@ -15,20 +15,25 @@
 .of-nav-left {
     padding-left: 2.06rem;
 }
-
+.osama{
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
 .of-nav-left img {
     width: 75px;
     height: 19px;
     flex-shrink: 0;
     margin-top: 0.94rem;
 }
-
+.os-pointer{
+    background-color: red !important;
+}
 .of-nav-left p {
     color: var(--color-black);
-    font-family: var(--my-font-family);
+    font-family: var(--my-font-family) !important;
     font-size: 18px;
     font-style: var(--font);
-    font-weight: 400;
+    font-weight: 500;
     line-height: 83.2%;
     margin-top: 1.31rem;
 }
@@ -41,7 +46,7 @@
 
 .of-navLinksSelected {
     color: var(--color-secondry);
-    font-family: var(--my-font-family);
+    font-family: var(--my-font-family) !important;
     font-size: 16px;
     font-style: var(--font);
     font-weight: 500;
@@ -49,7 +54,7 @@
 }
 .of-navLinksNoSelected {
     color: var(--color-black);
-    font-family: var(--my-font-family);
+    font-family: var(--my-font-family) !important;
     font-size: 16px;
     font-style: var(--font);
     font-weight: 500;
@@ -75,7 +80,7 @@
 
 .of-navbar-mobile .of-navbar-mobile-links li a {
     color: var(--color-secondry);
-    font-family: var(--my-font-family);
+    font-family: var(--my-font-family) !important;
     font-size: 16px;
     font-style: var(--font);
     font-weight: 500;

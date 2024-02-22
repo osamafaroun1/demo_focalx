@@ -106,9 +106,9 @@ const Portfolio = () => {
   // };
 
   return (
-    <div id="Profile">
+    <div id="Profile" className='pt-[5rem]'>
       {/* section one */}
-      <section className='mt-[2.81rem] flex flex-col justify-center items-center'>
+      <section className=' flex flex-col justify-center items-center'>
         <h3 style={{ lineHeight: 'normal' }} className='text-my-black font-my-font text-3xl not-italic font-bold'>Portfolio</h3>
         <p style={{ lineHeight: 'normal' }} className="text-my-black font-my-font text-2xl not-italic font-normal">99 reason to choose us</p>
       </section>
@@ -117,7 +117,7 @@ const Portfolio = () => {
         <div className="md:w-[49.63%] mt-[5.31rem]">
           <div className='relative max-w-[438px]'>
             <img src={photo} alt="this is brand photo" />
-            <img className='absolute md:top-[-3.57rem] top-0 md:left-[3.5rem] hover:rotate-[-1.055deg] z-[1]' src={cup} alt="" />
+            <img className='Os-animation absolute md:top-[-3.57rem] top-0 md:left-[3.5rem] hover:rotate-[-1.055deg] z-[1]' src={cup} alt="" />
             <div className=' text-my-gold text-[5.4375rem] font-my-font  not-italic font-bold leading-normal rotate-[-90deg]
                             absolute top-[9rem] left-[-1.3rem]
             '>
@@ -168,7 +168,7 @@ const Portfolio = () => {
           <div className='relative max-w-[430px] '>
             <img src={img_9} alt="this is image" />
             <img className='absolute top-[-5.94rem] md:left-[-2.98rem]' src={img_10} alt="this is image" />
-            <img className='absolute top-[5.33rem] md:left-[4.5rem] left-[1rem] hover:rotate-[106.239deg] hover:left-0' src={img_11} alt="this is image" />
+            <img className='Os-animation absolute top-[5.33rem] md:left-[4.5rem] left-[1rem]  hover:left-0' src={img_11} alt="this is image" />
             <div className='absolute top-[90px] left-[-240px] xl:block hidden z-[-1]'>
               <h2 className='text-my-black font-my-font text-2xl not-italic font-bold leading-normal flex items-center'>
                 Reffeca Project
@@ -375,7 +375,7 @@ const Portfolio = () => {
       </section> */}
 
       {/* section  */}
-      <section id="Clients" className="mt-[3.88rem] mb-[4.12rem]">
+      <section id="Clients" className="pt-[5rem] mb-[4.12rem]">
         <h2 className="text-my-black font-my-font text-3xl not-italic font-bold leading-normal mx-auto w-[20.7rem]">Clients Who Trust Us</h2>
         <div className="flex flex-wrap justify-center xl:justify-between  xl:gap-0 gap-10  pl-[2.06rem]  pr-[1.94rem]   mt-[2.56rem]">
           <img src={img_25} alt="this is image" />

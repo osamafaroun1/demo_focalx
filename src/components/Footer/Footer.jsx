@@ -30,62 +30,72 @@ const Footer = () => {
                                 </clipPath>
                             </defs>
                         </svg>
-                        <p className="text-white font-my-secound-font text-xl not-italic font-light leading-normal">.agency</p>
+                        <p className="text-white h-[22px]  font-my-secound-font text-xl not-italic font-[300] leading-normal">.agency</p>
                     </div>
-                    <p className="text-white font-my-secound-font text-[1.5625rem] not-italic font-medium leading-normal">Head Office</p>
-                    <p className="text-white font-my-secound-font text-xl not-italic font-light leading-normal">Syria - Latakia - GRH2+HJX
+                    <p className="text-white font-my-secound-font text-[1.5625rem] not-italic font-[600] leading-normal">Head Office</p>
+                    <p className="text-white font-my-secound-font text-xl not-italic font-[300] leading-normal">Syria - Latakia - GRH2+HJX
                         35.5199518</p>
                 </div>
                 {/* secound part */}
                 <div className="xl:w-[66.9%] flex flex-wrap gap-5 justify-between ">
                     <div className="xl:pt-[3.81rem]">
                         <div className="mb-[1.06rem]">
-                            <h2 className="text-white font-my-secound-font text-xl not-italic font-medium leading-normal">Sales</h2>
-                            <p className="text-white font-my-secound-font text-[1.0625rem] not-italic leading-normal font-light w-[10rem]">contact@focal-x.com
+                            <h2 className="text-white font-my-secound-font text-xl not-italic font-[600] leading-normal">Sales</h2>
+                            <p className="text-white font-my-secound-font text-[1.0625rem] not-italic  font-[300] w-[10rem]">contact@focal-x.com
                                 +963 953 666 056</p>
                         </div>
                         <div>
-                            <h2 className="text-white font-my-secound-font text-xl not-italic font-medium leading-normal">Public Relations</h2>
-                            <p className="text-white font-my-secound-font text-[1.0625rem] not-italic leading-normal font-light w-[10rem]">pr@focal-x.com
+                            <h2 className="text-white font-my-secound-font text-xl not-italic font-[600] leading-normal">Public Relations</h2>
+                            <p className="text-white font-my-secound-font text-[1.0625rem] not-italic leading-normal font-[300] w-[10rem]">pr@focal-x.com
                                 +963 953 666 052</p>
                         </div>
                     </div>
 
                     <div className="xl:pt-[3.81rem] ">
                         <div className="mb-[1.06rem]">
-                            <h2 className="text-white font-my-secound-font text-xl not-italic font-medium leading-normal">Customer Support</h2>
-                            <p className="text-white font-my-secound-font text-[1.0625rem] not-italic leading-normal font-light w-[10rem]">info@focal-x.com
+                            <h2 className="text-white font-my-secound-font text-xl not-italic font-[600] leading-normal">Customer Support</h2>
+                            <p className="text-white font-my-secound-font text-[1.0625rem] not-italic leading-normal font-[300] w-[10rem]">info@focal-x.com
                                 +963 953 666 054</p>
                         </div>
                         <div>
-                            <h2 className="text-white font-my-secound-font text-xl not-italic font-medium leading-normal">Human Resources</h2>
-                            <p className="text-white font-my-secound-font text-[1.0625rem] not-italic leading-normal font-light w-[10rem]">hr@focal-x.com</p>
+                            <h2 className="text-white font-my-secound-font text-xl not-italic font-[600] leading-normal">Human Resources</h2>
+                            <p className="text-white font-my-secound-font text-[1.0625rem] not-italic leading-normal font-[300] w-[10rem]">hr@focal-x.com</p>
                         </div>
                     </div>
 
                     <div className="xl:pt-[3.81rem] ">
-                        <h2 className="text-white font-my-secound-font text-xl not-italic font-medium leading-normal">Useful Links</h2>
-                        <p className="text-white font-my-secound-font text-[1.0625rem] not-italic leading-normal font-light w-[10rem]">Clients & Partners
+                        <h2 className="text-white font-my-secound-font text-xl not-italic font-[600] leading-normal">Useful Links</h2>
+                        <p className="text-white font-my-secound-font text-[1.0625rem] not-italic leading-normal font-[300] w-[10rem]">Clients & Partners
                             Check Certificat ID
                             Check for employee
                             Our Brand ID guidlines</p>
                     </div>
 
                     <div className="xl:pt-[5.38rem]">
-                        <h2 className="text-white font-my-secound-font not-italic leading-normal font-medium text-[1.5625rem]">Keep In Touch</h2>
+                        <h2 className="text-white font-my-secound-font not-italic leading-normal font-[600] text-[1.5625rem]">Keep In Touch</h2>
                         <div className='flex gap-[0.57rem]'>
-                            <img src={facebook} alt="this is icon" />
-                            <img src={behance} alt="this is icon" />
-                            <img src={instagram} alt="this is icon" />
+                            <a href='https://www.facebook.com/focal.x.agency/'>
+                                <img src={facebook} alt="this is icon" />
+                            </a>
+                            <a href='https://www.behance.net/focal-x-agency'>
+                                <img src={behance} alt="this is icon" />
+                            </a>
+                            <a href='https://www.instagram.com/focal.x.agency/'>
+                                <img src={instagram} alt="this is icon" />
+                            </a>
+                           <a href='https://twitter.com/focal_x_agency'>
                             <img src={twitter} alt="this is icon" />
-                            <img src={linkedin} alt="this is icon" />
+                           </a>
+                            <a href='https://www.linkedin.com/company/focal-x-agency'>
+                                <img src={linkedin} alt="this is icon" />
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
             <div className='mt-[1.06rem] pb-[1.44rem] flex flex-wrap lg:gap-0 gap-4 justify-between items-center'>
-                 <p className='text-white'>&copy; <span className='pl-[0.38rem]'>2021 - 2023 focal X L.L.C All Right Reserved</span></p>
-                 <hr className='text-white w-[66.9%]' />
+                <p className='text-white'>&copy; <span className='pl-[0.38rem]'>2021 - 2023 focal X L.L.C All Right Reserved</span></p>
+                <hr className='text-white w-[66.9%]' />
             </div>
         </footer>
     )

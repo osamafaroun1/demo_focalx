@@ -37,19 +37,29 @@ const Hero = () => {
                 <p className='xl:absolute xl:block hidden right-[22.4rem] bottom-[15.12rem] of-header-social-media-p'>START</p>
                 <div>
                     <div className='absolute  flex gap-1 md:top-[69.71%] top-[60%] left-[1.94rem]'>
-                        <img className='md:w-[30px] w-[15px]' src={facebook} alt='social media links' />
-                        <img className='md:w-[30px] w-[15px]' src={behance} alt='social media links' />
-                        <img className='md:w-[30px] w-[15px]' src={linkedin} alt='social media links' />
-                        <img className='md:w-[30px] w-[15px]' src={instagram} alt='social media links' />
-                        <img className='md:w-[30px] w-[15px]' src={twitter} alt='social media links' />
+                        <a href='https://www.facebook.com/focal.x.agency/'>
+                            <img className='md:w-[30px] w-[15px]' src={facebook} alt='social media links' />
+                        </a>
+                        <a href='https://www.behance.net/focal-x-agency'>
+                            <img className='md:w-[30px] w-[15px]' src={behance} alt='social media links' />
+                        </a>
+                        <a href='https://www.linkedin.com/company/focal-x-agency'>
+                            <img className='md:w-[30px] w-[15px]' src={linkedin} alt='social media links' />
+                        </a>
+                        <a href='https://www.instagram.com/focal.x.agency/'>
+                            <img className='md:w-[30px] w-[15px]' src={instagram} alt='social media links' />
+                        </a>
+                        <a href='https://twitter.com/focal_x_agency'>
+                            <img className='md:w-[30px] w-[15px]' src={twitter} alt='social media links' />
+                        </a>
                     </div>
                     <div className='w-[8.875rem]  flex flex-col sm:gap-[0.69rem] gap-[0] items-center   of-p-discourd'>
                         <img className='md:w-[21px] w-[10px]' src={groub} alt="" />
-                         <p className='md:text-base text-[0.6rem]'>Scroll To Discover</p>                 
+                        <p className='md:text-base text-[0.6rem]'>Scroll To Discover</p>
                     </div>
                     <div className='flex justify-center items-center gap-[0.38rem] absolute left-[69.25%]   md:bottom-[1.44rem]  bottom-[0.3rem] of-copyrightfocalx'>
-                          <span className='text-white'>&copy;</span>
-                          <span className='of-copyright md:text-base text-[0.6rem]'>2021 - 2022 focal X agency All Right Reserved</span>
+                        <span className='text-white'>&copy;</span>
+                        <span className='of-copyright md:text-base text-[0.6rem]'>2021 - 2022 focal X agency All Right Reserved</span>
                     </div>
                 </div>
             </div>

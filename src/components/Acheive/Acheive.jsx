@@ -67,7 +67,7 @@ const Acheive = () => {
     images:[]}
       ]
     return (
-    <div className='acheive'>
+    <div className='acheive pt-[5rem]' id='acheive'>
       <h1 className='achHeadline'> What We’ve achieved so far</h1>
       <div >
       { articlesList.map((e)=>(

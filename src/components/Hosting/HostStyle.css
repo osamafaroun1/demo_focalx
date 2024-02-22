@@ -10,14 +10,12 @@
     position: relative;
     /* z-index: -1; */
 }
-.typeHost{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19.5px;
-}
+
 .valueHOST{
     font-size: 16px;
-    
+    font-weight: 700;
+    line-height: 19.5px;
+    font-family: 'Montserrat';
 }
 .HostingCard{
     display: grid;

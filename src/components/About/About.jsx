@@ -34,7 +34,7 @@ const About = ({ title, description, subT, subSTit, descSub, cardsA }) => {
   return (
     <div className='aboutCont' id="about">
       <div className="aboutS">
-        <h1 className='titA'>{title}</h1>
+        <h1 className='titA'>{title}+</h1>
         <p className='descAbout'>{description}</p>
         <h1 className='subAbo'>{subT}</h1>
         <div className="infoS">
@@ -46,7 +46,7 @@ const About = ({ title, description, subT, subSTit, descSub, cardsA }) => {
         {cardsA.map((e) => (
           <div key={e.id} className="itemAbout">
             <h1 className="numA">{inView && <CounterCell initialValue={e.num} inView={inView} />}
-            </h1>   <p className="typeAb">{e.type}</p>
+            +</h1>   <p className="typeAb">{e.type}</p>
           </div>
         ))}
       </div>

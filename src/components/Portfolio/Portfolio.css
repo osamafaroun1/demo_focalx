@@ -15,6 +15,24 @@
     -webkit-font-smoothing: antialiased;
 }
 
+@keyframes updown
+{
+    0%{
+        transform: translateY(0px);
+    }
+    50%
+    {
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.Os-animation {
+    transition: 1s;
+    transform: rotate(0deg);
+    animation: updown 2s infinite linear;
+}
 @media screen and (min-width:1366px) {
     .slick-next:before {
         position: relative;

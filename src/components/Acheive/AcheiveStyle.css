@@ -2,7 +2,7 @@
     display: flex;
     justify-content: flex-start;
     width: 90%;
-    margin: 2% auto;
+    margin: 0.5rem auto;
     flex-direction: column;
 }
 
@@ -12,8 +12,6 @@
     font-size: 30px;
     font-weight: 700;
     line-height: 36.57px;
-    margin-top: 8%;
-   
 }
 
 .articleImages {
@@ -42,6 +40,7 @@
     line-height: 500;
     color: #282828;
     line-height: 31.2px;
+    margin-bottom: 1rem;
 }
 
 .underDate {
@@ -56,8 +55,8 @@
 .listCircle::before {
     content: "";
     position: absolute;
-    left: -15px;
-    bottom: 0;
+    left: -19px;
+    bottom: 10px;
     width: 8px;
     margin: 0 auto;
     border-radius: 50%;
@@ -78,7 +77,8 @@
 
 .linkArticle {
     text-decoration: underline;
-    margin-right: 10px;
+    margin-right: 25px;
+    margin-left: 10px;
     color: #282828;
     cursor: pointer;
     font-size: 24px;
@@ -91,6 +91,7 @@
     font-size: 24px;
     line-height: 31.2px;
     font-weight: 400;
+    margin-bottom: 0.8rem;
 }
 
 .designAwards {

@@ -6,7 +6,7 @@ const Article = ({isList,dateArticle,text, isLink,linkList,images}) => { return 
      {isList ? <>
      <ul>
        <li className='listCircle'>{dateArticle}</li> </ul></>
-       : <div className='underDate'>{dateArticle}</div>}
+       : <div className='underDate listCircle'>{dateArticle}</div>}
      </div>
      <p className='articleText'>{text}</p>
      <div className="LinksArticle">
