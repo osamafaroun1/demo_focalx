@@ -53,7 +53,7 @@ const LandingPage = () => {
       ))}
       <Intern />
       <Acheive />
-      <ContactUs  />
+      <ContactUs />
       <Footer />
     </>
   )

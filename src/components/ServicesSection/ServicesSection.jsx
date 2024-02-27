@@ -8,6 +8,7 @@ import img4 from "./../../assets/blue.png"
 import x2 from "./../../assets/layer3.png"
 import x1 from "./../../assets/layer1.png"
 import x3 from "./../../assets/layer2.png"
+import Marketing from '../../assets/marketing.svg'
 import v1 from "./../../assets/v2.png"
 import v3 from "./../../assets/v4.png"
 import v2 from "./../../assets/v1.png"
@@ -23,7 +24,8 @@ export const ServicesSection = () => {
     , desc: "The brand is hope,It is also the source of inspiration for everything you do when you deal with your customers and that is the important and emotional thing. Your Brand and Visual identity represents an intrinsic Value to your company."
     , subTitle: "In focal X agency, we provide:"
     , list: ["Visual identity design.", "Define Brand Identity.", "Define Brand personality.", "Building Your brand strategy.", "Market research and competitors study."],
-    phrase: "We walk with you from A to Z."
+    phrase: "We walk with you from A to Z.",
+    logo:Marketing
   },
   {
     id: 1,

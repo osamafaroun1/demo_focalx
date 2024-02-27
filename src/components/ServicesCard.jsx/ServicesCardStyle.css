@@ -55,11 +55,12 @@
 }
 
 .ul li.Alist {
-  line-height: 18.67px;
+  line-height: 20px;
   color: #525252;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   font-family: 'Montserrat';
+  word-spacing: 1px;
 }
 
 .sub,
@@ -114,16 +115,17 @@ h2 {
 
 .description {
   font-family: 'Montserrat';
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   max-width: 98%;
   padding-top: 1rem;
-  line-height: 18.67px;
+  line-height: 20px;
+  word-spacing: 1px;
 }
 
 .sub {
   font-family: 'Montserrat';
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
   max-width: 98%;
   color: var(--color-black);

@@ -21,7 +21,7 @@ export const ServicesCard = ({ id, radius, color, mainImg, position, boxShadow, 
             <img src={logo} className='Xlogo' />
           </div>
         </div>
-        
+
       </div>
     </div>
 

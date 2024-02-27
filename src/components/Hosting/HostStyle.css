@@ -13,9 +13,10 @@
 
 .valueHOST{
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 19.5px;
-    font-family: 'Montserrat';
+   
+    
 }
 .HostingCard{
     display: grid;
@@ -116,7 +117,7 @@
 }
 .descH{
    font-weight: 400;
-   font-size: 14px;
+   font-size: 16px;
    line-height:19.5px;
    margin: 0.6rem 0;
    width: 95%;
@@ -128,29 +129,27 @@
     margin: 0.6rem 0;
 }
 .PriceH{
-    font-family: 'Gothic A1', sans-serif;
     font-size: 25px;
-    font-weight: 900;
+    font-weight: 700;
     line-height: 31.25px;
 }
 .discountH{
    width: 40%;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19.5px;
   
 }
 .hostList{
     margin: 0.6rem 0;
 }
-.hostList .hostItem{
-    font-family: 'Gothic A1', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19.5px;
-}
+
 .hostBtn{
     border-radius:10px;
     font-weight:700;
     font-size: 20px;
     margin: 0.6rem 0;
+    padding: 5px 0;
 }
 
 @media screen and (max-width:1110px) {

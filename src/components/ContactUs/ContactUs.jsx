@@ -4,8 +4,8 @@ const ContactUS = () => {
     return (
             <section className="os-footer mt-10" id='contatUs'>
                 <div className='py-[6.81rem] sm:w-[71.30%] w-[90%] mx-auto'>
-                    <h1 className='text-white font-my-secound-font text-[3.47169rem] not-italic font-bold leading-normal mb-[2.19rem]'>Wherever you are, focal X reach you</h1>
-                    <p className='text-white font-my-secound-font text-[1.5625rem] not-italic font-normal leading-normal mb-[0.75rem]'>Subscribe to the newsletter to stay in latest news</p>
+                    <h1 className='text-white  text-[3.47169rem] not-italic font-bold leading-normal mb-[2.19rem]'>Wherever you are, focal X reach you</h1>
+                    <p className='text-white  text-[1.5625rem] not-italic font-normal leading-normal mb-[0.75rem]'>Subscribe to the newsletter to stay in latest news</p>
                     <div className='flex flex-col md:flex-row  items-center'>
                         <input
                             type="email"
