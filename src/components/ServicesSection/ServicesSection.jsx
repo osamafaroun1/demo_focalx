@@ -5,9 +5,9 @@ import img1 from "./../../assets/orange.png"
 import img2 from "./../../assets/v6.png"
 import img3 from '../../assets/Vector7.png'
 import img4 from "./../../assets/blue.png"
-import x2 from "./../../assets/layer3.png"
-import x1 from "./../../assets/layer1.png"
-import x3 from "./../../assets/layer2.png"
+import x2 from "./../../assets/layer3.svg"
+import x1 from "./../../assets/layer1.svg"
+import x3 from "./../../assets/layer2.svg"
 import Marketing from '../../assets/marketing.svg'
 import v1 from "./../../assets/v2.png"
 import v3 from "./../../assets/v4.png"
