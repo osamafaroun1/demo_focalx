@@ -167,7 +167,7 @@ const Portfolio = () => {
         <div className='md:w-[50.43%] mt-[5.94rem] flex justify-end'>
           <div className='relative max-w-[430px] '>
             <img src={img_9} alt="this is image" />
-            <img className='absolute top-[-5.94rem] md:left-[-2.98rem]' src={img_10} alt="this is image" />
+            <img className='Os-animation absolute top-[-5.94rem] md:left-[-2.98rem]' src={img_10} alt="this is image" />
             <img className='Os-animation absolute top-[5.33rem] md:left-[4.5rem] left-[1rem]' src={img_11} alt="this is image" />
             <div className='absolute top-[90px] left-[-240px] xl:block hidden z-[-1]'>
               <h2 className='text-my-black font-my-font text-2xl not-italic font-bold leading-normal flex items-center'>

@@ -2,7 +2,8 @@ import facebook from '../../assets/facebooks.svg'
 import behance from '../../assets/behance.svg'
 import instagram from '../../assets/instragram.svg'
 import linkedin from '../../assets/linked.svg'
-import twitter from '../../assets/twitter.svg'
+// import twitter from '../../assets/twitter.svg'
+import Twitter from '../../assets/TwitterNew.svg'
 const Footer = () => {
     return (
         <footer className="bg-my-black px-[2.06rem]">
@@ -84,7 +85,7 @@ const Footer = () => {
                                 <img src={instagram} alt="this is icon" />
                             </a>
                            <a href='https://twitter.com/focal_x_agency'>
-                            <img src={twitter} alt="this is icon" />
+                            <img src={Twitter} alt="this is icon" />
                            </a>
                             <a href='https://www.linkedin.com/company/focal-x-agency'>
                                 <img src={linkedin} alt="this is icon" />
